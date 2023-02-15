@@ -14,8 +14,8 @@ class TweetFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => 2,
-            'content' => 'user 2 Teste 2',
+            'user_id' => 1,
+            'content' => 'Teste 1',
         ];
     }
 }
