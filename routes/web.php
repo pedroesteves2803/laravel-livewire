@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('tweets', ShowTweets::class);
+Route::get('tweets', ShowTweets::class)->middleware('auth');
 
 Route::get('/', function () {
     return view('welcome');
